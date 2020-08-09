@@ -1,0 +1,574 @@
+.carousel-item {
+
+      margin-left: 46%;
+
+}
+
+
+.navbar-toggler {
+
+    position: absolute;
+    top: -3rem;
+    left: 14rem;
+}
+
+.burguer{
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+}
+
+.link-banner {
+
+    margin-left: -5rem;
+    margin-top: 5rem;
+}
+
+.bg-degrade-1{
+
+    background-image: url(../images/degrade-banner.png);
+    background-repeat: no-repeat;
+    background-position-y: -3rem;
+    background-position-x: 50rem;
+    background-size: contain;
+}
+
+.link-banner a{
+
+        color: #fff;
+}
+
+.header-bg {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 850px;
+    background-position: center;
+}
+
+.bg-nav {
+    background-image: url(../images/degrade.png);
+    min-height: 183px;
+}
+
+.nav-link:after {
+    content: "";
+    border-left: 2px solid #fff;
+    margin-left: 10px;
+}
+
+.nav-item:last-child .nav-link:after {
+        display: none;
+    }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white !important;
+
+}
+
+.dist{
+
+    display: inline;
+    margin-left: -15px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+ 
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #95BC50;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+     
+}
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: transparent;}
+
+
+/* dropdown2 Button */
+.dropbtn2 {
+  background-color: transparent;
+  color: white !important;
+
+}
+
+
+/* The container <div> - needed to position the dropdown2 content */
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+ 
+}
+
+/* dropdown2 Content (Hidden by Default) */
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #95BC50;
+  min-width: 170px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+     
+}
+
+
+/* Links inside the dropdown2 */
+.dropdown2-content a {
+  color: #fff;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown2 links on hover */
+.dropdown2-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown2 menu on hover */
+.dropdown2:hover .dropdown2-content {display: block;}
+
+/* Change the background color of the dropdown2 button when the dropdown2 content is shown */
+.dropdown2:hover .dropbtn {background-color: transparent;}
+
+
+
+
+.nav-link{
+
+	color: #fff;
+
+}
+
+.nav-link:hover{
+
+	color: #fff;
+}
+
+.border-custom{
+
+	border: 1px solid #fff;
+    width: 65rem;
+    position: absolute;
+}
+
+.social-links{
+
+	    margin-left: 30px;
+}
+
+.efeito-pos-banner{
+
+    background-image: url(../images/efeito-pos-banner.png);
+    position: relative;
+    background-repeat: no-repeat;
+    top: -1rem;
+    background-size: cover;
+
+}
+
+.img-banner{
+
+    position: relative;
+    left: 44%;
+}
+
+/* SECTION PRODUCT */
+
+
+
+.product-title{
+
+    font-size: 28px;
+    color: #44ACCF;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+
+.section-products{
+
+	position: relative;
+    bottom: 15rem;
+}
+.bg{
+
+    background: #fff;
+}
+
+.product-btn{
+    background: rgb(68,172,208);
+    background: -moz-linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#44acd0",endColorstr="#000000",GradientType=1);
+    color: #fff;
+    padding: 10px 35px 10px 35px;
+    font-size: 21px;
+}
+
+.product-btn:hover{
+
+    text-decoration: none;
+}
+
+/* SECTION ABOUT */
+
+.section-about{
+
+    margin-top: -170.7px; 
+}
+
+.section-about p{
+
+	font-family: 'Oxygen', sans-serif;
+
+}
+
+.h1-about{
+
+	font-size: 42px;
+    
+    color: #707070;
+}
+
+.read-more-link{
+
+	font-size: 16px;
+    font-weight: bold;
+    color: #44ACCF;
+}
+
+.read-more-link:hover{
+
+	text-decoration: unset;
+}
+
+/* CALL TO ACTION SECTION */
+
+.h1-call-to-action{
+
+	font-size: 42px;
+    
+    color: #fff;
+
+}
+
+.call-to-action{
+    height: auto;
+	background: rgb(68,172,208);
+    background: -moz-linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(68,172,208,1) 0%, rgba(150,188,79,1) 100%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#44acd0",endColorstr="#000000",GradientType=1);
+}
+
+.call-to-action p{
+
+	color: #fff;
+    margin: 28px;
+}
+
+.btn-call-to-action{
+
+	background: #fff;
+    padding: 4px 25px;
+    font-size: 21px;
+    color: #44ACCF;
+    
+}
+
+.btn-call-to-action:hover{
+
+	text-decoration: unset;
+}
+
+/* SECTION CAROUSEL */
+
+.h1-carousel{
+
+	font-size: 42px;
+    
+    color: #707070;
+}
+
+.title-prod{
+
+    color: #44ACCF;
+    font-size: 24px;
+}
+
+.price-prod {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.slider {
+    
+    margin: 0 auto;
+}
+
+.slick-prev:before, .slick-next:before {
+
+    color: transparent;
+
+}
+
+.slick-slide img{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+/* SECTION NEWALETTER */
+
+.newsletter-section{
+
+	background: #F4F4F4;
+
+}
+
+.form-row{
+
+    margin-left: 15rem;
+}
+
+.input-small{
+
+    width: 30%
+}
+
+.efeito-pos-newsletter{
+
+    background-image: url(../images/efeito-pos-newsletter.png);
+    position: relative;
+    background-repeat: no-repeat;
+    top: -1rem;
+    background-size: cover;
+
+}
+
+.h1-newsletter{
+
+	font-size: 42px;
+    
+    color: #44ACCF;
+}
+
+.btn-enviar{
+
+	margin-top: 1rem;
+    background: #fff;
+    padding: 4px 25px;
+    font-size: 21px;
+    color: #44ACCF;
+    
+    text-transform: uppercase;
+    box-shadow: 0px 3px 6px #00000016;
+}
+
+/* FOOTER */
+
+.menu-footer{
+
+	font-size: 14px;
+    color: #95BC50;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.ul-menu-footer{
+
+	padding: unset;
+	list-style: none;
+}
+
+.li-menu-footer a{
+
+	color: #707070;
+}
+
+.content-two{
+
+	float: right;
+}
+
+.logo-parceiros{
+
+	margin-left: 38.1px;
+}
+
+.parceiro-footer{
+	text-align: end;
+	font-size: 14px;
+    color: #95BC50;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.ul-parceiro-footer{
+
+	padding: unset;
+	list-style: none;
+	display: inline-flex;
+}
+
+.ul-parceiro-footer img{
+
+	margin-left: 38.1px;
+}
+
+.img-site-seguro{
+
+	    display: block;
+    margin-left: 12rem;
+}
+
+.show-mobile{
+
+    display: none;
+}
+
+.hide-mobile{
+
+    display: block;
+}
+
+   /* CSS FOR SCREEN 992 AND BELOW  */
+
+    @media only screen and (max-width: 992px) {
+
+        .header-bg{
+
+            background-image: url(../images/bg-mobile.png);
+
+        }
+
+
+
+        .nav-link:after{
+
+            display: none;
+        }
+
+        .slick-prev, .slick-next{
+
+            display: none;
+        }
+
+        .bg-mobile{
+            background: red;
+            text-align: center;
+        }
+
+        .bg-nav {
+
+    background-position-y: -3rem;
+    background-repeat: no-repeat;
+}
+
+        .hide-mobile{
+
+    display: none;
+}
+
+        .show-mobile{
+
+            display: block;
+        }
+
+        .h1-newsletter, .h1-about, .h1-call-to-action, .h1-carousel{
+
+            font-size: 30px;
+        }
+
+        .navbar-toggler {
+        position: absolute;
+        top: -3rem;
+        left: 85%;
+    }
+    
+    .carousel {
+
+        display: none;
+    }
+
+        
+         .carousel-control-prev, .carousel-control-next{
+            display: none;
+         }
+
+        .border-custom{
+
+            display: none;
+        }
+
+        .form-row{
+
+            margin: unset;
+            display: block;
+        }
+
+        .form-control{
+
+                margin-bottom: 1rem;
+        }
+
+        .input-small{
+
+            width: 100%;
+        }
+
+        .center{
+
+            text-align: center;
+        }
+
+    .parceiro-footer {
+        text-align: center;
+
+}
+
+
+.menu-footer {
+
+    margin-top: 20px;
+}
+
+
+.ul-parceiro-footer img {
+    margin: 22px;
+}
+
+
+.img-site-seguro {
+
+    margin-left: 7rem;
+}
+
+    }
